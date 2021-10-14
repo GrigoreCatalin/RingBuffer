@@ -47,10 +47,7 @@ public class RingBuffer<E> {
         if (isEmpty()) {
             return null;
         }
-        if (this.read > this.write) {
             return (E) array[this.read];
-        }
-            return (E) array[this.write];
     }
 
     public void display() {

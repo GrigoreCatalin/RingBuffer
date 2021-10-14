@@ -14,11 +14,12 @@ public class main {
 
 
 
+
        System.out.println("READ: " + queue.read);
        System.out.println("WRITE: " + queue.write);
        System.out.println("SIZE: " + queue.size);
 //        System.out.println(queue.isEmpty());
-//        System.out.println(queue.peek());
+        System.out.println(queue.peek());
 
         queue.display();
 
